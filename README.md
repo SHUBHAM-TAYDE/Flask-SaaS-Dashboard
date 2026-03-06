@@ -62,27 +62,27 @@ flask-saas-dashboard
 Clone the repository
 ```bash
 git clone https://github.com/yourusername/flask-saas-dashboard.git
-```
+
 cd flask-saas-dashboard
-
+```
 Create virtual environment
-
+```bash
 python3 -m venv venv
 
 source venv/bin/activate
-
+```
 Install dependencies
-
+```bash
 pip install flask flask-login gunicorn
-
+```
 ---
 
 # 🗄️ Setup Database
 
 Run database initialization script
-
+```bash
 python database/init_db.py
-
+```
 Default credentials
 
 username: admin
