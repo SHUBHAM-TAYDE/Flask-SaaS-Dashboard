@@ -60,9 +60,9 @@ flask-saas-dashboard
 # ⚙️ Installation
 
 Clone the repository
-
+```bash
 git clone https://github.com/yourusername/flask-saas-dashboard.git
-
+```
 cd flask-saas-dashboard
 
 Create virtual environment
