@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 class="text-3xl font-bold mb-6">
+Projects
+</h1>
+
+<div class="bg-white p-6 rounded shadow">
+
+<table class="w-full">
+
+<thead>
+
+<tr class="border-b">
+
+<th class="p-2 text-left">Project</th>
+<th class="p-2 text-left">Status</th>
+<th class="p-2 text-left">Owner</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr class="border-b">
+
+<td class="p-2">Flask Dashboard</td>
+<td class="p-2 text-green-600">Running</td>
+<td class="p-2">Shubham</td>
+
+</tr>
+
+<tr class="border-b">
+
+<td class="p-2">DevOps Pipeline</td>
+<td class="p-2 text-yellow-600">Pending</td>
+<td class="p-2">Team</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+{% endblock %}
